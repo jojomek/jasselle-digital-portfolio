@@ -29,8 +29,8 @@ const TopVideos = () => {
             Selected work, <span className="italic text-accent">freshly cut.</span>
           </h2>
           <p className="text-muted-foreground max-w-md text-pretty">
-            Three pieces I'm most proud of from the past year — a short film, a vlog, and a brand
-            edit. Click any thumbnail to play.
+            Three pieces I'm most proud of from the past year — a short film, a promotional video,
+            and a documentary video. Click any thumbnail to play.
           </p>
         </motion.div>
 

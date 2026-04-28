@@ -2,10 +2,6 @@
  * ============================================================
  *  EDIT THIS FILE TO PERSONALIZE YOUR PORTFOLIO
  * ============================================================
- *  Every piece of text, every link, every email — change it
- *  here and it updates across the entire site. No need to
- *  touch component files unless you want to change layout.
- * ============================================================
  */
 
 export const profile = {
@@ -17,6 +13,7 @@ export const profile = {
   university: "University of the East",
   status: "Graduating Class of 2026",
   email: "jssllmalbas@gmail.com",
+  viber: "+63 969 085 6586",
   resumeUrl: "#",
   driveUrl: "https://drive.google.com/drive/folders/1vIyf6ItH_N0LUMMNq_OEKnNpZwomwkLY?usp=drive_link",
   socials: {
@@ -24,6 +21,7 @@ export const profile = {
     linkedin: "https://www.linkedin.com/in/jasselle-malbas-a99a76376/",
     behance: "https://behance.net/",
     youtube: "https://www.youtube.com/@jassellem",
+    viber: "viber://chat?number=%2B639690856586",
   },
 };
 
@@ -47,22 +45,58 @@ export const education = [
 
 export const experience = [
   {
-    role: "Freelance Video Editor",
-    org: "Independent Projects",
-    period: "2023 — Present",
-    desc: "Short-form reels, vlogs, and brand cutdowns for student creators and small businesses.",
+    role: "Quality Assurance Manager · Stage Manager · Creative Director",
+    org: "UE Drama Company",
+    period: "2022 — 2024",
+    desc: "Held multiple leadership roles across productions — overseeing quality assurance, stage management, and creative direction.",
   },
   {
-    role: "Editorial Intern",
-    org: "Campus Media Org · UE",
+    role: "Secretary · P.R.O. External · Video Editor (Ulat Mandirigma)",
+    org: "Media Equipping — Association of Broadcasting Students",
+    period: "2022 — 2026",
+    desc: "Long-running involvement spanning officer roles and editing duties for Ulat Mandirigma broadcasts.",
+  },
+  {
+    role: "Creatives · Video Editor",
+    org: "Bukang-Liwayway Theater Musical Play",
     period: "2024",
-    desc: "Edited weekly campus highlight videos and social motion graphics.",
+    desc: "Part of the creatives team and lead video editor for the musical's promotional and supporting materials.",
   },
   {
-    role: "Academic Capstone",
-    org: "University of the East",
-    period: "2024 — 2025",
-    desc: "Co-directed and edited a documentary short exploring local creative communities.",
+    role: "Seminar Participant",
+    org: "CMFR Jaime V. Ongpin Journalism Seminar with Ms. Kara David",
+    period: "2024",
+    desc: "Selected participant in a journalism seminar with veteran broadcaster Kara David.",
+  },
+  {
+    role: "Silver Awardee · Best Director · Best Editing · Best Sound Design · Best Actress · Best Cinematography Nominee",
+    org: "Gawad Silangan",
+    period: "2025",
+    desc: "Recognized across multiple craft categories including direction, editing, sound design, and acting.",
+  },
+  {
+    role: "Digital Editor Intern · TJ Monterde 'Sarili Nating Mundo' Main Cam Op",
+    org: "Cornerstone Entertainment, Inc.",
+    period: "2025",
+    desc: "Interned as a digital editor and operated main camera for TJ Monterde's 'Sarili Nating Mundo'.",
+  },
+  {
+    role: "Member and Coverage",
+    org: "Jessica Soho Storytellers' Academy",
+    period: "2025",
+    desc: "Accepted member of the Storytellers' Academy with on-ground coverage assignments.",
+  },
+  {
+    role: "Coverage",
+    org: "UAAP S88 Press Conference",
+    period: "2025",
+    desc: "Covered the UAAP Season 88 press conference.",
+  },
+  {
+    role: "Director",
+    org: "Batch '26 Final Live Prod Theater Musical Play",
+    period: "2026",
+    desc: "Directing the batch's final live theater musical production.",
   },
 ];
 
@@ -93,12 +127,6 @@ export const services = [
   },
 ];
 
-/**
- * TOP 3 EDITED VIDEOS
- * — Replace `embedUrl` with a YouTube/Vimeo *embed* URL (e.g. https://www.youtube.com/embed/XXXX)
- * — Replace the imported thumbnail by editing `src/assets/video-1.jpg` etc.
- * — Or swap to a different image: import yourImg from "@/assets/your-file.jpg"
- */
 import video1 from "@/assets/video-1.jpg";
 import video2 from "@/assets/video-2.jpg";
 import video3 from "@/assets/video-3.jpg";
@@ -106,30 +134,30 @@ import video3 from "@/assets/video-3.jpg";
 export const topVideos = [
   {
     id: 1,
-    title: "Golden Hour — A Short Film",
-    category: "Documentary Short",
+    title: "Short Film",
+    category: "Short Film",
     year: "2025",
-    desc: "An intimate portrait of three creatives chasing light at the edge of the city. Edited for warmth, mood, and a slow editorial pace.",
+    desc: "A short film piece I'm most proud of from the past year.",
     thumbnail: video1,
-    embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // ← replace
+    embedUrl: "https://www.youtube.com/embed/lFHL8Y-02Co",
   },
   {
     id: 2,
-    title: "Coast — Travel Vlog",
-    category: "Vlog / Travel",
-    year: "2024",
-    desc: "A coastal weekend cut to feel like flipping through a polaroid album. Sound-led editing with no narration.",
+    title: "Promotional Video",
+    category: "Promotional",
+    year: "2025",
+    desc: "A promotional video edit highlighting brand storytelling and pacing.",
     thumbnail: video2,
-    embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // ← replace
+    embedUrl: "https://www.youtube.com/embed/IbtADsth3p0",
   },
   {
     id: 3,
-    title: "LLEMÓN — Brand Film",
-    category: "Brand / Product",
-    year: "2024",
-    desc: "A 60-second brand film for a student-run skincare label. Color-graded for soft butter tones and editorial product beats.",
+    title: "Documentary Video",
+    category: "Documentary",
+    year: "2025",
+    desc: "A documentary cut centered on real stories with intentional rhythm.",
     thumbnail: video3,
-    embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // ← replace
+    embedUrl: "https://www.youtube.com/embed/GnJ5rbvl1LU",
   },
 ];
 
