@@ -111,7 +111,7 @@ const Hero = () => {
             {/* Floating icons */}
             <FloatingIcon className="absolute -top-4 right-2 lg:right-20 hidden sm:block" delay={0}>
               <div className="w-14 h-14 rounded-2xl bg-secondary flex items-center justify-center shadow-card rotate-[-8deg]">
-                <Play className="w-6 h-6 text-primary fill-primary" />
+                <Play className="w-6 h-6 text-secondary-foreground fill-current" />
               </div>
             </FloatingIcon>
             <FloatingIcon className="absolute top-32 -left-2 hidden md:block" delay={1.2}>
@@ -155,7 +155,7 @@ const Hero = () => {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-                    <Camera className="w-5 h-5 text-primary" />
+                    <Camera className="w-5 h-5 text-secondary-foreground" />
                   </div>
                   <div>
                     <div className="text-xs uppercase tracking-wider text-muted-foreground">Available</div>

@@ -112,7 +112,7 @@ const About = () => {
           >
             <div className="flex items-center gap-3 mb-8">
               <span className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-                <Briefcase className="w-5 h-5 text-primary" />
+                <Briefcase className="w-5 h-5 text-secondary-foreground" />
               </span>
               <h3 className="font-display text-2xl font-semibold text-primary">
                 Experience & Projects
