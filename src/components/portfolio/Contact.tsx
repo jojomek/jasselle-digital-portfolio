@@ -45,14 +45,14 @@ const Contact = () => {
           </motion.div>
 
           <motion.div {...reveal} className="lg:col-span-5 grid grid-cols-1 gap-6">
-            <div className="rounded-4xl bg-secondary p-8 shadow-soft">
-              <Mail className="w-6 h-6 text-primary" />
-              <div className="mt-6 text-xs uppercase tracking-wider text-primary/70 font-semibold">
+            <div className="rounded-4xl bg-secondary text-secondary-foreground p-8 shadow-soft">
+              <Mail className="w-6 h-6 text-secondary-foreground" />
+              <div className="mt-6 text-xs uppercase tracking-wider text-secondary-foreground/70 font-semibold">
                 Email
               </div>
               <a
                 href={`mailto:${profile.email}`}
-                className="mt-1 block font-display text-xl md:text-2xl text-primary hover:text-primary-hover transition-colors break-all"
+                className="mt-1 block font-display text-xl md:text-2xl text-secondary-foreground hover:opacity-80 transition-opacity break-all"
               >
                 {profile.email}
               </a>

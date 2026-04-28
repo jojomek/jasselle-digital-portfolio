@@ -122,7 +122,7 @@ const VideoCard = ({
       {/* Play button */}
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-secondary flex items-center justify-center scale-75 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-300 ease-editorial shadow-lift">
-          <Play className="w-7 h-7 md:w-8 md:h-8 text-primary fill-primary ml-1" />
+          <Play className="w-7 h-7 md:w-8 md:h-8 text-secondary-foreground fill-current ml-1" />
         </div>
       </div>
       {/* Year tag */}
