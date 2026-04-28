@@ -30,7 +30,7 @@ const Contact = () => {
               <span className="italic text-accent">Let's edit it together.</span>
             </h2>
             <p className="mt-6 text-muted-foreground text-lg max-w-xl text-pretty">
-              I'm currently open to internships, freelance edits, brand collaborations, and
+              I'm currently open to paid internships, freelance edits, brand collaborations, and
               entry-level creative roles. Drop a note — I reply within 1–2 days.
             </p>
             <a
