@@ -26,7 +26,7 @@ const About = () => {
             {...reveal}
             className="lg:col-span-7 rounded-4xl bg-surface p-8 md:p-12 shadow-soft hover:shadow-card transition-shadow duration-300"
           >
-            <div className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-primary">
+            <div className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-secondary-foreground">
               <Sparkle className="w-3.5 h-3.5" />
               {about.greeting}
             </div>
