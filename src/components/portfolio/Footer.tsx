@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           <a
             href="#top"
-            className="group self-start md:self-auto inline-flex items-center gap-3 rounded-full bg-secondary text-primary pl-6 pr-2 py-2 text-sm font-semibold hover:scale-95 transition-transform"
+            className="group self-start md:self-auto inline-flex items-center gap-3 rounded-full bg-secondary text-secondary-foreground pl-6 pr-2 py-2 text-sm font-semibold hover:scale-95 transition-transform"
           >
             Back to top
             <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-primary text-primary-foreground">

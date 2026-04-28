@@ -20,7 +20,7 @@ const DriveCTA = () => {
 
           <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8">
-              <div className="inline-flex items-center gap-2 rounded-full bg-secondary text-primary px-4 py-1.5 text-xs font-bold uppercase tracking-wider">
+              <div className="inline-flex items-center gap-2 rounded-full bg-secondary text-secondary-foreground px-4 py-1.5 text-xs font-bold uppercase tracking-wider">
                 <FolderOpen className="w-3.5 h-3.5" />
                 Full archive
               </div>
@@ -39,7 +39,7 @@ const DriveCTA = () => {
                 href={profile.driveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-3 rounded-full bg-secondary text-primary pl-7 pr-3 py-3 text-base font-semibold hover:scale-95 transition-transform duration-300 ease-editorial shadow-editorial"
+                className="group inline-flex items-center gap-3 rounded-full bg-secondary text-secondary-foreground pl-7 pr-3 py-3 text-base font-semibold hover:scale-95 transition-transform duration-300 ease-editorial shadow-editorial"
               >
                 Open Google Drive
                 <span className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-primary text-primary-foreground group-hover:rotate-45 transition-transform duration-300 ease-editorial">

@@ -102,7 +102,7 @@ const Hero = () => {
               </a>
               <a
                 href="#about"
-                className="inline-flex items-center gap-2 rounded-full bg-secondary text-primary px-6 py-3 text-sm font-semibold hover:bg-secondary/80 transition-all"
+                className="inline-flex items-center gap-2 rounded-full bg-secondary text-secondary-foreground px-6 py-3 text-sm font-semibold hover:bg-secondary/80 transition-all"
               >
                 About me
               </a>

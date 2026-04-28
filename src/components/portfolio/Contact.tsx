@@ -38,7 +38,7 @@ const Contact = () => {
               className="mt-8 group inline-flex items-center gap-3 rounded-full bg-primary text-primary-foreground pl-7 pr-3 py-3 text-base font-semibold hover:bg-primary-hover transition-colors"
             >
               {profile.email}
-              <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-primary group-hover:rotate-45 transition-transform duration-300 ease-editorial">
+              <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-secondary-foreground group-hover:rotate-45 transition-transform duration-300 ease-editorial">
                 <ArrowUpRight className="w-4 h-4" />
               </span>
             </a>

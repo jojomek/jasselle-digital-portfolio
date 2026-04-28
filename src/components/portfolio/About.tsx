@@ -55,7 +55,7 @@ const About = () => {
               className="rounded-4xl bg-primary text-primary-foreground p-8 shadow-soft"
             >
               <div className="flex items-center gap-3">
-                <span className="w-10 h-10 rounded-full bg-secondary text-primary flex items-center justify-center">
+                <span className="w-10 h-10 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center">
                   <GraduationCap className="w-5 h-5" />
                 </span>
                 <div className="text-xs uppercase tracking-[0.18em] font-semibold opacity-80">

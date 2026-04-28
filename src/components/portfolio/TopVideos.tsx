@@ -91,7 +91,7 @@ const TopVideos = () => {
             <button
               aria-label="Close video"
               onClick={() => setActive(null)}
-              className="absolute top-6 right-6 w-12 h-12 rounded-full bg-secondary text-primary flex items-center justify-center hover:scale-95 transition-transform"
+              className="absolute top-6 right-6 w-12 h-12 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center hover:scale-95 transition-transform"
             >
               <X className="w-5 h-5" />
             </button>
