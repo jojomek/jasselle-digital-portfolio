@@ -19,7 +19,7 @@ const TopVideos = () => {
       <div className="container-editorial">
         <motion.div {...reveal} className="flex items-center gap-4 mb-10">
           <span className="text-xs uppercase tracking-[0.22em] text-muted-foreground font-semibold">
-            03 — Top 3 Edited Videos
+            03 — Sample Projects
           </span>
           <div className="h-px flex-1 bg-border" />
         </motion.div>
