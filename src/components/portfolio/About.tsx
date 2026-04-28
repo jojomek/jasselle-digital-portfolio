@@ -26,7 +26,7 @@ const About = () => {
             {...reveal}
             className="lg:col-span-7 rounded-4xl bg-surface p-8 md:p-12 shadow-soft hover:shadow-card transition-shadow duration-300"
           >
-            <div className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-primary">
+            <div className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-secondary-foreground">
               <Sparkle className="w-3.5 h-3.5" />
               {about.greeting}
             </div>
@@ -55,7 +55,7 @@ const About = () => {
               className="rounded-4xl bg-primary text-primary-foreground p-8 shadow-soft"
             >
               <div className="flex items-center gap-3">
-                <span className="w-10 h-10 rounded-full bg-secondary text-primary flex items-center justify-center">
+                <span className="w-10 h-10 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center">
                   <GraduationCap className="w-5 h-5" />
                 </span>
                 <div className="text-xs uppercase tracking-[0.18em] font-semibold opacity-80">
@@ -83,7 +83,7 @@ const About = () => {
                 </div>
                 <div>
                   <div className="text-3xl font-display font-semibold text-primary tabular-nums">
-                    2025
+                    2026
                   </div>
                   <div className="text-xs uppercase tracking-wider text-muted-foreground mt-1">
                     Class of
@@ -112,7 +112,7 @@ const About = () => {
           >
             <div className="flex items-center gap-3 mb-8">
               <span className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-                <Briefcase className="w-5 h-5 text-primary" />
+                <Briefcase className="w-5 h-5 text-secondary-foreground" />
               </span>
               <h3 className="font-display text-2xl font-semibold text-primary">
                 Experience & Projects

@@ -44,7 +44,7 @@ const Skills = () => {
                 className="group rounded-4xl bg-surface p-8 shadow-soft hover:shadow-lift hover:-translate-y-1 transition-all duration-300 ease-editorial"
               >
                 <div className="w-14 h-14 rounded-2xl bg-secondary flex items-center justify-center mb-6 group-hover:rotate-[-6deg] transition-transform duration-300">
-                  <Icon className="w-6 h-6 text-primary" />
+                  <Icon className="w-6 h-6 text-secondary-foreground" />
                 </div>
                 <h3 className="font-display text-2xl font-semibold text-primary leading-tight">
                   {s.title}

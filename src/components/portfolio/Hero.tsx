@@ -38,13 +38,13 @@ const Hero = () => {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-              className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-primary"
+              className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-secondary-foreground"
             >
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-accent" />
               Creative · Visual · Editorial
             </motion.div>
 
-            <h1 className="mt-6 font-display font-semibold text-primary leading-[1.02] text-balance text-[2.75rem] sm:text-6xl lg:text-[5.5rem]">
+            <h1 className="mt-6 font-display font-semibold text-primary leading-[1.02] text-balance">
               <motion.span
                 initial={{ opacity: 0, y: 24, filter: "blur(6px)" }}
                 animate={{ opacity: 1, y: 0, filter: "blur(0)" }}
@@ -57,18 +57,9 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 24, filter: "blur(6px)" }}
                 animate={{ opacity: 1, y: 0, filter: "blur(0)" }}
                 transition={{ delay: 0.3, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                className="block italic"
+                className="block italic whitespace-nowrap text-[2rem] sm:text-5xl lg:text-7xl"
               >
-                Jasselle
-                <span className="text-accent">.</span>
-              </motion.span>
-              <motion.span
-                initial={{ opacity: 0, y: 24, filter: "blur(6px)" }}
-                animate={{ opacity: 1, y: 0, filter: "blur(0)" }}
-                transition={{ delay: 0.45, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                className="block"
-              >
-                Malbas
+                Jasselle Malbas<span className="text-accent not-italic">.</span>
               </motion.span>
             </h1>
 
@@ -111,7 +102,7 @@ const Hero = () => {
               </a>
               <a
                 href="#about"
-                className="inline-flex items-center gap-2 rounded-full bg-secondary text-primary px-6 py-3 text-sm font-semibold hover:bg-secondary/80 transition-all"
+                className="inline-flex items-center gap-2 rounded-full bg-secondary text-secondary-foreground px-6 py-3 text-sm font-semibold hover:bg-secondary/80 transition-all"
               >
                 About me
               </a>
@@ -120,7 +111,7 @@ const Hero = () => {
             {/* Floating icons */}
             <FloatingIcon className="absolute -top-4 right-2 lg:right-20 hidden sm:block" delay={0}>
               <div className="w-14 h-14 rounded-2xl bg-secondary flex items-center justify-center shadow-card rotate-[-8deg]">
-                <Play className="w-6 h-6 text-primary fill-primary" />
+                <Play className="w-6 h-6 text-secondary-foreground fill-current" />
               </div>
             </FloatingIcon>
             <FloatingIcon className="absolute top-32 -left-2 hidden md:block" delay={1.2}>
@@ -164,7 +155,7 @@ const Hero = () => {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-                    <Camera className="w-5 h-5 text-primary" />
+                    <Camera className="w-5 h-5 text-secondary-foreground" />
                   </div>
                   <div>
                     <div className="text-xs uppercase tracking-wider text-muted-foreground">Available</div>
