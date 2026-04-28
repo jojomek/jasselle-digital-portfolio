@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, MapPin, ArrowUpRight, Instagram, Linkedin, Youtube } from "lucide-react";
+import { Mail, MapPin, ArrowUpRight, Instagram, Linkedin, Youtube, Phone } from "lucide-react";
 import { profile } from "@/data/portfolio";
 
 const reveal = {
@@ -30,7 +30,7 @@ const Contact = () => {
               <span className="italic text-accent">Let's edit it together.</span>
             </h2>
             <p className="mt-6 text-muted-foreground text-lg max-w-xl text-pretty">
-              I'm currently open to internships, freelance edits, brand collaborations, and
+              I'm currently open to paid internships, freelance edits, brand collaborations, and
               entry-level creative roles. Drop a note — I reply within 1–2 days.
             </p>
             <a
@@ -66,7 +66,7 @@ const Contact = () => {
               <div className="mt-1 font-display text-xl md:text-2xl text-primary">
                 {profile.location}
               </div>
-              <div className="mt-6 flex gap-2">
+              <div className="mt-6 flex flex-wrap gap-2">
                 <SocialLink href={profile.socials.instagram} label="Instagram">
                   <Instagram className="w-4 h-4" />
                 </SocialLink>
@@ -76,7 +76,19 @@ const Contact = () => {
                 <SocialLink href={profile.socials.youtube} label="YouTube">
                   <Youtube className="w-4 h-4" />
                 </SocialLink>
+                <SocialLink href={profile.socials.viber} label={`Viber ${profile.viber}`}>
+                  <Phone className="w-4 h-4" />
+                </SocialLink>
               </div>
+              <div className="mt-3 text-xs uppercase tracking-wider text-muted-foreground font-semibold">
+                Viber
+              </div>
+              <a
+                href={profile.socials.viber}
+                className="mt-1 block font-display text-base md:text-lg text-primary hover:opacity-80 transition-opacity"
+              >
+                {profile.viber}
+              </a>
             </div>
           </motion.div>
         </div>
