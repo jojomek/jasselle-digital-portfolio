@@ -49,7 +49,7 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 24, filter: "blur(6px)" }}
                 animate={{ opacity: 1, y: 0, filter: "blur(0)" }}
                 transition={{ delay: 0.15, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                className="block"
+                className="block text-2xl sm:text-3xl lg:text-4xl"
               >
                 Hi! I'm
               </motion.span>
