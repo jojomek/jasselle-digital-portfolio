@@ -15,15 +15,15 @@ export const profile = {
   tagline: "Crafting visual stories that click.",
   location: "Manila, Philippines",
   university: "University of the East",
-  status: "Graduating Class of 2025",
-  email: "jasselle.malbas@example.com",       // ← replace with your email
-  resumeUrl: "#",                              // ← replace with your resume link
-  driveUrl: "https://drive.google.com/",       // ← replace with your Google Drive portfolio link
+  status: "Graduating Class of 2026",
+  email: "jssllmalbas@gmail.com",
+  resumeUrl: "#",
+  driveUrl: "https://drive.google.com/drive/folders/1vIyf6ItH_N0LUMMNq_OEKnNpZwomwkLY?usp=drive_link",
   socials: {
-    instagram: "https://instagram.com/",
-    linkedin: "https://linkedin.com/",
+    instagram: "https://www.instagram.com/jassellemalbas/",
+    linkedin: "https://www.linkedin.com/in/jasselle-malbas-a99a76376/",
     behance: "https://behance.net/",
-    youtube: "https://youtube.com/",
+    youtube: "https://www.youtube.com/@jassellem",
   },
 };
 
@@ -67,20 +67,17 @@ export const experience = [
 ];
 
 export const skills = [
-  { name: "Premiere Pro", category: "Video" },
-  { name: "DaVinci Resolve", category: "Color" },
-  { name: "After Effects", category: "Motion" },
-  { name: "Photoshop", category: "Design" },
-  { name: "Illustrator", category: "Design" },
-  { name: "Lightroom", category: "Photo" },
-  { name: "Figma", category: "Design" },
+  { name: "Adobe Premiere Pro", category: "Video" },
+  { name: "Adobe After Effects", category: "Motion" },
+  { name: "Davinci Resolve", category: "Color" },
+  { name: "Higgsfield", category: "AI" },
   { name: "CapCut", category: "Video" },
 ];
 
 export const services = [
   {
     title: "Video Editing",
-    desc: "Reels, vlogs, brand films, and short-form content with intentional pacing and clean cuts.",
+    desc: "Reels, vlogs, brand films, and short-form content with intentional pacing and clean cuts. Can create both nonlinear and visual effects editing.",
   },
   {
     title: "Graphic Design",
@@ -139,7 +136,7 @@ export const topVideos = [
 export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
-  { label: "Top 3 Videos", href: "#videos" },
+  { label: "Sample Projects", href: "#videos" },
   { label: "Drive", href: "#drive" },
   { label: "Contact", href: "#contact" },
 ];

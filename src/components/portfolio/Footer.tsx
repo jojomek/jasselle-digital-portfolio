@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="mt-12 flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-xs uppercase tracking-wider opacity-60">
           <div>© {new Date().getFullYear()} {profile.name}. All rights reserved.</div>
           <div>{profile.university} · {profile.location}</div>
-          <div>Made with warmth & Fraunces</div>
+          <div>Passionate and Collaborative</div>
         </div>
       </div>
     </footer>

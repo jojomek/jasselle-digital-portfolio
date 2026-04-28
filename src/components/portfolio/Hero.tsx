@@ -44,7 +44,7 @@ const Hero = () => {
               Creative · Visual · Editorial
             </motion.div>
 
-            <h1 className="mt-6 font-display font-semibold text-primary leading-[1.02] text-balance text-[2.75rem] sm:text-6xl lg:text-[5.5rem]">
+            <h1 className="mt-6 font-display font-semibold text-primary leading-[1.02] text-balance">
               <motion.span
                 initial={{ opacity: 0, y: 24, filter: "blur(6px)" }}
                 animate={{ opacity: 1, y: 0, filter: "blur(0)" }}
@@ -57,18 +57,9 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 24, filter: "blur(6px)" }}
                 animate={{ opacity: 1, y: 0, filter: "blur(0)" }}
                 transition={{ delay: 0.3, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                className="block italic"
+                className="block italic whitespace-nowrap text-[2rem] sm:text-5xl lg:text-7xl"
               >
-                Jasselle
-                <span className="text-accent">.</span>
-              </motion.span>
-              <motion.span
-                initial={{ opacity: 0, y: 24, filter: "blur(6px)" }}
-                animate={{ opacity: 1, y: 0, filter: "blur(0)" }}
-                transition={{ delay: 0.45, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                className="block"
-              >
-                Malbas
+                Jasselle Malbas<span className="text-accent not-italic">.</span>
               </motion.span>
             </h1>
 
