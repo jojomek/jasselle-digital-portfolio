@@ -11,7 +11,7 @@ export const profile = {
   tagline: "Crafting visual stories that click.",
   location: "Manila, Philippines",
   university: "University of the East",
-  status: "Graduating Class of 2026",
+  status: "Batch\u00a0of 2026",
   email: "jssllmalbas@gmail.com",
   viber: "+63 969 085 6586",
   resumeUrl: "#",
