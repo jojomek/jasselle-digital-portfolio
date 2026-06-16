@@ -130,15 +130,33 @@ export const services = [
 import video1 from "@/assets/video-1.jpg";
 import video2 from "@/assets/video-2.jpg";
 import video3 from "@/assets/video-3.jpg";
+import closureNaBa from "@/assets/closure-na-ba.png.asset.json";
+import eastBound1 from "@/assets/east-bound-1.jpg.asset.json";
+import eastBound2 from "@/assets/east-bound-2.jpg.asset.json";
+import genderViolencePdf from "@/assets/gender-violence-article.pdf.asset.json";
 
-export const topVideos = [
+export type ProjectItem = {
+  id: number;
+  title: string;
+  category: string;
+  year: string;
+  desc: string;
+  thumbnail: string;
+  type: "video" | "image" | "pdf";
+  embedUrl?: string;
+  imageUrl?: string;
+  pdfUrl?: string;
+};
+
+export const topVideos: ProjectItem[] = [
   {
     id: 1,
     title: "\"Open Air\"",
-    category: "\"Open Air\"",
+    category: "Short Film",
     year: "2025",
     desc: "A short film piece I'm most proud of from the past year.",
     thumbnail: video1,
+    type: "video",
     embedUrl: "https://www.youtube.com/embed/lFHL8Y-02Co",
   },
   {
@@ -148,6 +166,7 @@ export const topVideos = [
     year: "2025",
     desc: "A promotional video edit highlighting organization storytelling and pacing.",
     thumbnail: video2,
+    type: "video",
     embedUrl: "https://www.youtube.com/embed/IbtADsth3p0",
   },
   {
@@ -157,7 +176,48 @@ export const topVideos = [
     year: "2025",
     desc: "A documentary cut centered on real stories with intentional rhythm.",
     thumbnail: video3,
+    type: "video",
     embedUrl: "https://www.youtube.com/embed/GnJ5rbvl1LU",
+  },
+  {
+    id: 4,
+    title: "CloSURE Na Ba?",
+    category: "Graphic Design",
+    year: "2025",
+    desc: "Call-for-participants poster for a research study on ghosting in romantic relationships.",
+    thumbnail: closureNaBa.url,
+    type: "image",
+    imageUrl: closureNaBa.url,
+  },
+  {
+    id: 5,
+    title: "East Bound 2025 — Vol. 1",
+    category: "Event Poster",
+    year: "2025",
+    desc: "Promotional poster for Every Nation Campus' East Bound 2025 event at UE U-Belt.",
+    thumbnail: eastBound1.url,
+    type: "image",
+    imageUrl: eastBound1.url,
+  },
+  {
+    id: 6,
+    title: "East Bound 2025 — Vol. 2",
+    category: "Event Poster",
+    year: "2025",
+    desc: "Second poster in the East Bound 2025 campaign — bold typography, editorial grit.",
+    thumbnail: eastBound2.url,
+    type: "image",
+    imageUrl: eastBound2.url,
+  },
+  {
+    id: 7,
+    title: "Gender Violence Feature",
+    category: "Written Article",
+    year: "2025",
+    desc: "A long-form written piece exploring gender violence — research, reporting, and editorial voice.",
+    thumbnail: closureNaBa.url,
+    type: "pdf",
+    pdfUrl: genderViolencePdf.url,
   },
 ];
 
