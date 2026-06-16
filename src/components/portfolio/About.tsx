@@ -68,7 +68,13 @@ const About = () => {
                     {e.school}
                   </div>
                   <div className="text-sm opacity-80 mt-1">{e.degree}</div>
-                  <div className="text-xs uppercase tracking-wider mt-3 opacity-60">{e.period}</div>
+                  <div className="text-xs uppercase tracking-wider mt-3 opacity-60">
+                    <div className="flex items-center gap-1">
+                      <div className="w-1.5 h-1.5 rounded-full bg-accent" />
+                      \u00a0MANILA, PHILIPPINES
+                    </div>
+                    {e.period}
+                  </div>
                 </div>
               ))}
             </motion.div>
