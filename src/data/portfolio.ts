@@ -216,7 +216,7 @@ export const topVideos: ProjectItem[] = [
     category: "Written Article",
     year: "2025",
     desc: "A long-form written piece exploring gender violence — research, reporting, and editorial voice.",
-    thumbnail: closureNaBa.url,
+    thumbnail: genderViolenceCover,
     type: "pdf",
     pdfUrl: genderViolencePdf.url,
   },
