@@ -73,7 +73,7 @@ const Hero = () => {
                 {profile.role}
               </span>
               <span className="text-sm text-muted-foreground">
-                {profile.university} · {profile.status}
+                {profile.university} ·{profile.status}
               </span>
             </motion.div>
 

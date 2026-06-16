@@ -30,8 +30,8 @@ const Contact = () => {
               <span className="italic text-accent">Let's edit it together.</span>
             </h2>
             <p className="mt-6 text-muted-foreground text-lg max-w-xl text-pretty">
-              I'm currently open to paid internships, freelance edits, brand collaborations, and
-              entry-level creative roles. Drop a note — I reply within 1–2 days.
+              I'm currently open to intermediate-level creative roles, freelance edits, brand collaborations, and
+              paid-internship roles. Drop a note — I reply within 1–2 days.
             </p>
             <a
               href={`mailto:${profile.email}`}

@@ -11,7 +11,7 @@ export const profile = {
   tagline: "Crafting visual stories that click.",
   location: "Manila, Philippines",
   university: "University of the East",
-  status: "Batch\u00a0of 2026",
+  status: "\\u00a0",
   email: "jssllmalbas@gmail.com",
   viber: "+63 969 085 6586",
   resumeUrl: "#",
@@ -39,7 +39,7 @@ export const education = [
   {
     school: "University of the East",
     degree: "Bachelor's Program in Multimedia Arts / Digital Editing",
-    period: "2021 — 2025",
+    period: "2022 — 2026",
   },
 ];
 
@@ -134,8 +134,8 @@ import video3 from "@/assets/video-3.jpg";
 export const topVideos = [
   {
     id: 1,
-    title: "Short Film",
-    category: "Short Film",
+    title: "\"Open Air\"",
+    category: "\"Open Air\"",
     year: "2025",
     desc: "A short film piece I'm most proud of from the past year.",
     thumbnail: video1,
@@ -143,16 +143,16 @@ export const topVideos = [
   },
   {
     id: 2,
-    title: "Promotional Video",
+    title: "ABS Promotional Video",
     category: "Promotional",
     year: "2025",
-    desc: "A promotional video edit highlighting brand storytelling and pacing.",
+    desc: "A promotional video edit highlighting organization storytelling and pacing.",
     thumbnail: video2,
     embedUrl: "https://www.youtube.com/embed/IbtADsth3p0",
   },
   {
     id: 3,
-    title: "Documentary Video",
+    title: "CFYV Sinag Documentary",
     category: "Documentary",
     year: "2025",
     desc: "A documentary cut centered on real stories with intentional rhythm.",
