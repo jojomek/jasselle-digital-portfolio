@@ -134,6 +134,7 @@ import closureNaBa from "@/assets/closure-na-ba.png.asset.json";
 import eastBound1 from "@/assets/east-bound-1.jpg.asset.json";
 import eastBound2 from "@/assets/east-bound-2.jpg.asset.json";
 import genderViolencePdf from "@/assets/gender-violence-article.pdf.asset.json";
+import genderViolenceCover from "@/assets/gender-violence-cover.jpg";
 
 export type ProjectItem = {
   id: number;
