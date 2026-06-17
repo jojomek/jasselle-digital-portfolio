@@ -96,7 +96,7 @@ const TopVideos = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-[100] bg-primary/90 backdrop-blur-sm flex items-center justify-center p-4"
+            className="fixed inset-0 z-[100] bg-primary/90 backdrop-blur-sm flex items-center justify-center p-4 overflow-auto"
             onClick={() => setActive(null)}
           >
             <motion.div
@@ -104,8 +104,10 @@ const TopVideos = () => {
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.95, opacity: 0 }}
               transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              className={`relative w-full rounded-3xl overflow-hidden bg-primary shadow-editorial ${
-                activeItem.type === "video" ? "max-w-5xl aspect-video" : "max-w-3xl max-h-[88vh]"
+              className={`relative rounded-3xl overflow-hidden shadow-editorial ${
+                activeItem.type === "video"
+                  ? "w-full max-w-5xl aspect-video bg-primary"
+                  : "max-w-[95vw] max-h-[92vh] bg-transparent"
               }`}
               onClick={(e) => e.stopPropagation()}
             >
@@ -122,7 +124,7 @@ const TopVideos = () => {
                 <img
                   src={activeItem.imageUrl}
                   alt={activeItem.title}
-                  className="w-full h-full object-contain bg-primary"
+                  className="block max-w-[95vw] max-h-[92vh] w-auto h-auto object-contain"
                 />
               )}
             </motion.div>
