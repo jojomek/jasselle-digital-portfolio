@@ -7,11 +7,11 @@
 export const profile = {
   name: "Jasselle Malbas",
   firstName: "Jasselle",
-  role: "Digital Editor",
+  role: "Digital Professional",
   tagline: "Crafting visual stories that click.",
   location: "Manila, Philippines",
   university: "University of the East",
-  status: "\\u00a0",
+  status: "Batch 2026",
   email: "jssllmalbas@gmail.com",
   viber: "+63 969 085 6586",
   resumeUrl: "#",
