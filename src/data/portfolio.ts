@@ -128,13 +128,12 @@ export const services = [
 ];
 
 import video3 from "@/assets/video-3.jpg";
-import closureNaBa from "@/assets/closure-na-ba.png.asset.json";
-import eastBound1 from "@/assets/east-bound-1.jpg.asset.json";
-import eastBound2 from "@/assets/east-bound-2.jpg.asset.json";
-import openAirPoster from "@/assets/open-air-poster.png.asset.json";
-import absCover from "@/assets/abs-cover.png.asset.json";
-import genderViolencePdf from "@/assets/gender-violence-article.pdf.asset.json";
-import genderViolenceCover from "@/assets/gender-violence-cover.jpg";
+import closureNaBa from "@/assets/closure-na-ba.png";
+import eastBound1 from "@/assets/east-bound-1.jpg";
+import eastBound2 from "@/assets/east-bound-2.jpg";
+import openAirPoster from "@/assets/open-air-poster.png";
+import absCover from "@/assets/abs-cover.png";
+import genderViolencePreview from "@/assets/gender-violence-preview.jpg";
 
 export type ProjectItem = {
   id: number;
