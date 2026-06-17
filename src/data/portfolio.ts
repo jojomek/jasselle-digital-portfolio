@@ -127,8 +127,6 @@ export const services = [
   },
 ];
 
-import video1 from "@/assets/video-1.jpg";
-import video2 from "@/assets/video-2.jpg";
 import video3 from "@/assets/video-3.jpg";
 import closureNaBa from "@/assets/closure-na-ba.png.asset.json";
 import eastBound1 from "@/assets/east-bound-1.jpg.asset.json";
