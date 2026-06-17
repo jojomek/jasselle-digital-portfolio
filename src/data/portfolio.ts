@@ -128,13 +128,12 @@ export const services = [
 ];
 
 import video3 from "@/assets/video-3.jpg";
-import closureNaBa from "@/assets/closure-na-ba.png.asset.json";
-import eastBound1 from "@/assets/east-bound-1.jpg.asset.json";
-import eastBound2 from "@/assets/east-bound-2.jpg.asset.json";
-import openAirPoster from "@/assets/open-air-poster.png.asset.json";
-import absCover from "@/assets/abs-cover.png.asset.json";
-import genderViolencePdf from "@/assets/gender-violence-article.pdf.asset.json";
-import genderViolenceCover from "@/assets/gender-violence-cover.jpg";
+import closureNaBa from "@/assets/closure-na-ba.png";
+import eastBound1 from "@/assets/east-bound-1.jpg";
+import eastBound2 from "@/assets/east-bound-2.jpg";
+import openAirPoster from "@/assets/open-air-poster.png";
+import absCover from "@/assets/abs-cover.png";
+import genderViolencePreview from "@/assets/gender-violence-preview.jpg";
 
 export type ProjectItem = {
   id: number;
@@ -186,9 +185,9 @@ export const topVideos: ProjectItem[] = [
     category: "Film Poster",
     year: "",
     desc: "Official theatrical poster artwork for the short film \"Open Air\".",
-    thumbnail: openAirPoster.url,
+    thumbnail: openAirPoster,
     type: "image",
-    imageUrl: openAirPoster.url,
+    imageUrl: openAirPoster,
   },
   {
     id: 9,
@@ -196,9 +195,9 @@ export const topVideos: ProjectItem[] = [
     category: "Cover Art",
     year: "",
     desc: "Final cover design for the ABS promotional campaign.",
-    thumbnail: absCover.url,
+    thumbnail: absCover,
     type: "image",
-    imageUrl: absCover.url,
+    imageUrl: absCover,
   },
   {
     id: 4,
@@ -206,9 +205,9 @@ export const topVideos: ProjectItem[] = [
     category: "Graphic Design",
     year: "",
     desc: "Call-for-participants poster for a research study on ghosting in romantic relationships.",
-    thumbnail: closureNaBa.url,
+    thumbnail: closureNaBa,
     type: "image",
-    imageUrl: closureNaBa.url,
+    imageUrl: closureNaBa,
   },
   {
     id: 5,
@@ -216,9 +215,9 @@ export const topVideos: ProjectItem[] = [
     category: "Event Poster",
     year: "",
     desc: "Promotional poster for Every Nation Campus' East Bound 2025 event at UE U-Belt.",
-    thumbnail: eastBound1.url,
+    thumbnail: eastBound1,
     type: "image",
-    imageUrl: eastBound1.url,
+    imageUrl: eastBound1,
   },
   {
     id: 6,
@@ -226,9 +225,9 @@ export const topVideos: ProjectItem[] = [
     category: "Event Poster",
     year: "",
     desc: "Second poster in the East Bound 2025 campaign — bold typography, editorial grit.",
-    thumbnail: eastBound2.url,
+    thumbnail: eastBound2,
     type: "image",
-    imageUrl: eastBound2.url,
+    imageUrl: eastBound2,
   },
   {
     id: 7,
@@ -236,9 +235,9 @@ export const topVideos: ProjectItem[] = [
     category: "Written Article",
     year: "",
     desc: "A long-form written piece exploring gender violence — research, reporting, and editorial voice.",
-    thumbnail: genderViolenceCover,
-    type: "pdf",
-    pdfUrl: genderViolencePdf.url,
+    thumbnail: genderViolencePreview,
+    type: "image",
+    imageUrl: genderViolencePreview,
   },
 ];
 
