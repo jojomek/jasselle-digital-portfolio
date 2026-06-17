@@ -33,7 +33,11 @@ const Navbar = () => {
             <li key={l.href}>
               <a
                 href={l.href}
-                className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors rounded-full"
+                className={
+                  l.label === "Sample Projects"
+                    ? "px-3 py-2 text-sm font-semibold text-secondary bg-secondary/10 hover:bg-secondary/20 ring-1 ring-secondary/25 transition-colors rounded-full"
+                    : "px-3 py-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors rounded-full"
+                }
               >
                 {l.label}
               </a>
@@ -65,7 +69,11 @@ const Navbar = () => {
                 <a
                   href={l.href}
                   onClick={() => setOpen(false)}
-                  className="block px-3 py-3 text-base font-medium text-foreground hover:bg-muted rounded-2xl"
+                  className={
+                    l.label === "Sample Projects"
+                      ? "block px-3 py-3 text-base font-semibold text-secondary bg-secondary/10 hover:bg-secondary/20 ring-1 ring-secondary/25 rounded-2xl"
+                      : "block px-3 py-3 text-base font-medium text-foreground hover:bg-muted rounded-2xl"
+                  }
                 >
                   {l.label}
                 </a>
