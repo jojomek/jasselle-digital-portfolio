@@ -163,9 +163,11 @@ const ProjectCard = ({ item, large = false }: { item: ProjectItem; large?: boole
           <TypeIcon type={item.type} />
         </div>
       </div>
-      <div className="absolute top-4 left-4 inline-flex items-center rounded-full bg-background/90 backdrop-blur px-3 py-1 text-xs font-semibold text-primary">
-        {item.year}
-      </div>
+      {item.year && (
+        <div className="absolute top-4 left-4 inline-flex items-center rounded-full bg-background/90 backdrop-blur px-3 py-1 text-xs font-semibold text-primary">
+          {item.year}
+        </div>
+      )}
       {item.type === "pdf" && (
         <div className="absolute top-4 right-4 inline-flex items-center gap-1 rounded-full bg-background/90 backdrop-blur px-3 py-1 text-xs font-semibold text-primary">
           <ExternalLink className="w-3 h-3" /> PDF
