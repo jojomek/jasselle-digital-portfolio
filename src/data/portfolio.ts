@@ -127,12 +127,12 @@ export const services = [
   },
 ];
 
-import video1 from "@/assets/video-1.jpg";
-import video2 from "@/assets/video-2.jpg";
 import video3 from "@/assets/video-3.jpg";
 import closureNaBa from "@/assets/closure-na-ba.png.asset.json";
 import eastBound1 from "@/assets/east-bound-1.jpg.asset.json";
 import eastBound2 from "@/assets/east-bound-2.jpg.asset.json";
+import openAirPoster from "@/assets/open-air-poster.png.asset.json";
+import absCover from "@/assets/abs-cover.png.asset.json";
 import genderViolencePdf from "@/assets/gender-violence-article.pdf.asset.json";
 import genderViolenceCover from "@/assets/gender-violence-cover.jpg";
 
@@ -156,7 +156,7 @@ export const topVideos: ProjectItem[] = [
     category: "Short Film",
     year: "2025",
     desc: "A short film piece I'm most proud of from the past year.",
-    thumbnail: video1,
+    thumbnail: "https://img.youtube.com/vi/lFHL8Y-02Co/maxresdefault.jpg",
     type: "video",
     embedUrl: "https://www.youtube.com/embed/lFHL8Y-02Co",
   },
@@ -166,7 +166,7 @@ export const topVideos: ProjectItem[] = [
     category: "Promotional",
     year: "2025",
     desc: "A promotional video edit highlighting organization storytelling and pacing.",
-    thumbnail: video2,
+    thumbnail: "https://img.youtube.com/vi/IbtADsth3p0/maxresdefault.jpg",
     type: "video",
     embedUrl: "https://www.youtube.com/embed/IbtADsth3p0",
   },
@@ -181,10 +181,30 @@ export const topVideos: ProjectItem[] = [
     embedUrl: "https://www.youtube.com/embed/GnJ5rbvl1LU",
   },
   {
+    id: 8,
+    title: "Open Air — Official Poster",
+    category: "Film Poster",
+    year: "",
+    desc: "Official theatrical poster artwork for the short film \"Open Air\".",
+    thumbnail: openAirPoster.url,
+    type: "image",
+    imageUrl: openAirPoster.url,
+  },
+  {
+    id: 9,
+    title: "ABS Cover — Final",
+    category: "Cover Art",
+    year: "",
+    desc: "Final cover design for the ABS promotional campaign.",
+    thumbnail: absCover.url,
+    type: "image",
+    imageUrl: absCover.url,
+  },
+  {
     id: 4,
     title: "CloSURE Na Ba?",
     category: "Graphic Design",
-    year: "2025",
+    year: "",
     desc: "Call-for-participants poster for a research study on ghosting in romantic relationships.",
     thumbnail: closureNaBa.url,
     type: "image",
@@ -194,7 +214,7 @@ export const topVideos: ProjectItem[] = [
     id: 5,
     title: "East Bound 2025 — Vol. 1",
     category: "Event Poster",
-    year: "2025",
+    year: "",
     desc: "Promotional poster for Every Nation Campus' East Bound 2025 event at UE U-Belt.",
     thumbnail: eastBound1.url,
     type: "image",
@@ -204,7 +224,7 @@ export const topVideos: ProjectItem[] = [
     id: 6,
     title: "East Bound 2025 — Vol. 2",
     category: "Event Poster",
-    year: "2025",
+    year: "",
     desc: "Second poster in the East Bound 2025 campaign — bold typography, editorial grit.",
     thumbnail: eastBound2.url,
     type: "image",
@@ -214,7 +234,7 @@ export const topVideos: ProjectItem[] = [
     id: 7,
     title: "Gender Violence Feature",
     category: "Written Article",
-    year: "2025",
+    year: "",
     desc: "A long-form written piece exploring gender violence — research, reporting, and editorial voice.",
     thumbnail: genderViolenceCover,
     type: "pdf",
