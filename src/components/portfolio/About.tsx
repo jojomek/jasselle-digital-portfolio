@@ -71,7 +71,7 @@ const About = () => {
                   <div className="text-xs uppercase tracking-wider mt-3 opacity-60">
                     <div className="flex items-center gap-1">
                       <div className="w-1.5 h-1.5 rounded-full bg-accent" />
-                      \u00a0MANILA, PHILIPPINES
+                      MANILA, PHILIPPINES
                     </div>
                     {e.period}
                   </div>
