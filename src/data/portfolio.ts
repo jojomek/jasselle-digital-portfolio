@@ -100,32 +100,18 @@ export const experience = [
   },
 ];
 
+import logoPremiere from "@/assets/logo-premiere.png.asset.json";
+import logoAe from "@/assets/logo-ae.png.asset.json";
+import logoDavinci from "@/assets/logo-davinci.png.asset.json";
+import logoHiggsfield from "@/assets/logo-higgsfield.jpeg.asset.json";
+import logoCapcut from "@/assets/logo-capcut.jpg.asset.json";
+
 export const skills = [
-  {
-    name: "Adobe Premiere Pro",
-    category: "Video",
-    icon: "https://cdn.simpleicons.org/adobepremierepro/9999FF",
-  },
-  {
-    name: "Adobe After Effects",
-    category: "Motion",
-    icon: "https://cdn.simpleicons.org/adobeaftereffects/9999FF",
-  },
-  {
-    name: "Davinci Resolve",
-    category: "Color",
-    icon: "https://cdn.simpleicons.org/davinciresolve/FF4438",
-  },
-  {
-    name: "Higgsfield",
-    category: "AI",
-    icon: "https://cdn.simpleicons.org/openai/10A37F",
-  },
-  {
-    name: "CapCut",
-    category: "Video",
-    icon: "https://cdn.simpleicons.org/capcut/000000",
-  },
+  { name: "Adobe Premiere Pro", category: "Video", icon: logoPremiere.url },
+  { name: "Adobe After Effects", category: "Motion", icon: logoAe.url },
+  { name: "Davinci Resolve", category: "Color", icon: logoDavinci.url },
+  { name: "Higgsfield", category: "AI", icon: logoHiggsfield.url },
+  { name: "CapCut", category: "Video", icon: logoCapcut.url },
 ];
 
 export const services = [
