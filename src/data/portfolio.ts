@@ -101,11 +101,31 @@ export const experience = [
 ];
 
 export const skills = [
-  { name: "Adobe Premiere Pro", category: "Video" },
-  { name: "Adobe After Effects", category: "Motion" },
-  { name: "Davinci Resolve", category: "Color" },
-  { name: "Higgsfield", category: "AI" },
-  { name: "CapCut", category: "Video" },
+  {
+    name: "Adobe Premiere Pro",
+    category: "Video",
+    icon: "https://cdn.simpleicons.org/adobepremierepro/9999FF",
+  },
+  {
+    name: "Adobe After Effects",
+    category: "Motion",
+    icon: "https://cdn.simpleicons.org/adobeaftereffects/9999FF",
+  },
+  {
+    name: "Davinci Resolve",
+    category: "Color",
+    icon: "https://cdn.simpleicons.org/davinciresolve/FF4438",
+  },
+  {
+    name: "Higgsfield",
+    category: "AI",
+    icon: "https://cdn.simpleicons.org/openai/10A37F",
+  },
+  {
+    name: "CapCut",
+    category: "Video",
+    icon: "https://cdn.simpleicons.org/capcut/000000",
+  },
 ];
 
 export const services = [
