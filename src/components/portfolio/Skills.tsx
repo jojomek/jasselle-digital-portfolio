@@ -67,7 +67,16 @@ const Skills = () => {
                   key={i}
                   className="inline-flex items-center gap-2 rounded-full bg-surface-alt px-5 py-2 text-sm font-semibold text-primary whitespace-nowrap"
                 >
-                  <span className="w-1.5 h-1.5 rounded-full bg-accent" />
+                  {s.icon ? (
+                    <img
+                      src={s.icon}
+                      alt={`${s.name} logo`}
+                      loading="lazy"
+                      className="w-4 h-4 object-contain"
+                    />
+                  ) : (
+                    <span className="w-1.5 h-1.5 rounded-full bg-accent" />
+                  )}
                   {s.name}
                   <span className="text-muted-foreground font-normal">· {s.category}</span>
                 </span>
