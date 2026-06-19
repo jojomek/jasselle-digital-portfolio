@@ -72,7 +72,7 @@ const Skills = () => {
                       src={s.icon}
                       alt={`${s.name} logo`}
                       loading="lazy"
-                      className="w-4 h-4 object-contain"
+                      className="w-5 h-5 object-contain rounded-sm"
                     />
                   ) : (
                     <span className="w-1.5 h-1.5 rounded-full bg-accent" />
