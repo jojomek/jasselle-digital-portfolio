@@ -38,7 +38,7 @@ export const about = {
 export const education = [
   {
     school: "University of the East",
-    degree: "Bachelor's Program in Multimedia Arts / Digital Editing",
+    degree: "Bachelor of Arts\u00a0 in Broadcasting",
     period: "2022 — 2026",
   },
 ];
